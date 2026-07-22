@@ -68,7 +68,7 @@ active-directory-home-lab/
 | Virtualization Platform | VirtualBox |
 | Server VM | DC (Server19) — Windows Server 2019 |
 | Client VM | Client1 (Win10) — Windows 10 |
-| Domain | paraday.home.lab.ad |
+| Domain | PARADAY.com |
 | Forest | paraday.home.lab.AD |
 | NetBIOS Name | PARADAY |
 | DC Static IP | 172.16.0.1 |
@@ -123,14 +123,14 @@ Real errors encountered and resolved during this lab are documented in the troub
 
 ## What is Next
 
-- Fine Grained Password Policies for privileged accounts
 - Identity lifecycle practice with full documentation
-- Delegation of permissions to helpdesk admin account
-- Full rebuild of the lab from scratch without a tutorial
 - Azure Active Directory and hybrid identity in Stage 2
 - Okta dashboard configuration and SSO setup in Stage 3
 
----
+## Completed
+- Fine Grained Password Policy applied to IT-Admin group
+- Helpdesk admin account created with delegation scoped to Finance OU only
+- Full lab rebuilt from scratch without a tutorial demonstrating independent mastery
 
 ## Certifications Being Pursued
 
